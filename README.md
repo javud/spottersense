@@ -15,11 +15,6 @@ SpotterSense is an intelligent parking lot monitoring system designed to provide
 - **Bluetooth Communication**: Arduinos use Bluetooth to transmit data, enabling wireless communication and reducing installation complexity.
 - **User-friendly Interface**: The central Arduino displays the availability of parking spots on an LCD panel, making it easy for both drivers and parking lot staff to access the data.
 
-## System Design
-1. **Parking Spot Sensors**: Each sensor-equipped Arduino checks the status of its designated parking spot using ultrasonic distance measurements. When the distance indicates a car is present, the sensor sends an "Occupied" status; otherwise, it sends a "Vacant" status.
-2. **Central Hub Arduino**: Receives data from all parking spot sensors via Bluetooth and updates the total number of available spots in real-time. This data is displayed on an LCD screen.
-3. **Bluetooth Communication**: The system uses Bluetooth for wireless communication between the sensors and the central hub, ensuring seamless data transfer without the need for wires.
-
 ## Materials Required
 - Arduino Uno (Central Hub)
 - Arduino Uno (Parking Spot Sensors)
@@ -29,8 +24,9 @@ SpotterSense is an intelligent parking lot monitoring system designed to provide
 - Beeper/LEDs for feedback
 - Breadboards, wires, and power supplies
 
-## Set-up Instructions
-- Instructions and additional information can be found in the [full project report](https://github.com/javud/spottersense/SpotterSenseReport.pdf)
+## Set-up 
+- Instructions for set-up and additional information can be found in the [full project report](https://github.com/javud/spottersense/SpotterSenseReport.pdf)
+- You will need to download and run the file SERVER.ino on the Central Hub Arduino and the file CLIENT.ino on the Parking Spot Sensor(s) Arduino
 
 ## References
 - [Arduino Documentation](https://www.arduino.cc/)
