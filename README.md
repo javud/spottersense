@@ -25,7 +25,7 @@ SpotterSense is an intelligent parking lot monitoring system designed to provide
 - Breadboards, wires, and power supplies
 
 ## Set-up 
-- Instructions for set-up and additional information can be found in the [full project report](https://github.com/javud/spottersense/SpotterSenseReport.pdf)
+- Instructions for set-up and additional information can be found in SpotterSenseReport.pdf
 - You will need to download and run the file SERVER.ino on the Central Hub Arduino and the file CLIENT.ino on the Parking Spot Sensor(s) Arduino
 
 ## References
